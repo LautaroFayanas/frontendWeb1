@@ -1,0 +1,479 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.filtro{
+    display: none;
+}
+.filtroDos{
+    display: flex;
+}
+.body.btn-DarMode{
+    background-color: #141E27;
+    border-radius: 50%;
+}
+
+.divbtndakrmode{
+    width: 60px;
+    margin-right: 25px;
+}
+.btn-DarMode .darkimg{
+    width: 100%;
+}
+
+.titleProd{
+    color: white;
+}
+
+#spinner {
+    display: none;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.sk-chase {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    animation: sk-chase 2.5s infinite linear both;
+  }
+  
+  .sk-chase-dot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-color: #0288d1;
+    border-radius: 100%;
+    animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+  }
+  
+  @keyframes sk-chase {
+    100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot {
+    80%, 100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot-before {
+    50% {
+      transform: scale(0.4); 
+    } 100%, 0% {
+      transform: scale(1.0); 
+    } 
+  }
+
+
+/* CARROUSEL HEADER */
+
+.contenedor .contenedorTres{
+    width: 40%;
+    height: 55vh;
+    margin: -620px 675px;
+    box-shadow: 0px 0px 80px #F24C4C;
+    position: absolute;
+    border-radius: 95px;
+    overflow: hidden;
+    transition: 0.5s; 
+}
+
+.contenedor .contenedorTres img{
+    border-radius: 65px; 
+    height: 55vh
+    
+}
+
+.contenedor .contenedorTres:hover{
+    box-shadow: 0px 0px 80px #6df24c;
+}
+
+.redes{
+    width: 20%;
+    margin: -450px 50px;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+.redes img{
+    margin-top: 5px;
+    width: 15%;
+    cursor: pointer;
+}
+
+.redes img:hover{
+   
+    width: 17%;
+    border-radius: 90%;
+}
+.flechaIcono{
+    position: absolute;
+    width: 20%;
+    height: 60px;
+    margin: -60px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.flechaIcono img{
+    width: 12%;
+}
+video{
+    width: 100%;
+}
+
+.tituloTyped{
+    font-size: 30px;
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    margin: 515px 100px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    
+}
+
+.textEdit{
+    font-weight: bold;
+    color: #F24C4C;
+    font-style: normal;
+}
+
+.parrafInicio{
+    font-size: 48px;
+    position: absolute;
+    margin: auto  150px;
+    width: 30%;
+    height: 55%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.parrafsubInicio{
+    position: absolute;
+    padding: 120px;
+    width: 55%;
+    margin: 0 30px;
+    height: 87%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+.butonInicio{
+    box-shadow: black -4px 8px 10px;
+    width: 10%;
+    height: 5%;
+    margin-top:-255px;
+    margin-left: 305px;
+    position: absolute;
+    text-decoration: none;
+}
+.butonInicio a{
+    width: auto;
+    margin: -12px -36px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+.butonInicioDos{
+    box-shadow: black -4px 8px 10px;
+    width: 10%;
+    height: 5%;
+    margin-top:-255px;
+    margin-left: 160px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.butonInicioDos a{
+    width: auto;
+    margin: -12px -36px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+
+.butonInicio a:hover{
+    color: white;
+}
+
+.butonInicioDos a:hover{
+    color: white;
+}
+
+/* CARROUSEL SIDE */
+
+
+
+.text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70% ;
+    width: 70%;
+    margin: 50px 150px;
+  
+}
+
+.buttonVermas{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    margin: 350px 380px;
+}
+
+
+
+                                    /*COMIENZO DE MAIN CON LOS PRODUCTOS*/
+                                
+
+
+.conta{
+    cursor: pointer;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.tituloprod{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 200px auto;
+}
+
+/*                 PROBAR ESTE CODIGO PARA EL FLEX EN GRID
+.cad{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    }
+*/
+
+.imagenesSelec{
+    width: 110%;
+    margin: -50px;
+  
+}
+
+.carousel{
+    box-shadow: 0px 0px 20px  black;
+  
+}
+
+#myCarousel{
+    width: 80%;
+    border-radius: 6%;
+    margin: 100px 100px;
+
+}
+
+.containerDos{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 150px;
+margin-top: 20px;
+
+
+}
+
+.imagenNosotros {
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 101px 101px 30x black ;
+}
+
+.containerDos p{
+    margin-top: 20px;
+    color: black;
+}
+
+.containerDos h2{
+    margin-top: 15px;
+    color: black;
+}
+.contenedorBanner{
+    width: 100%;
+}
+.imagenBannerTienda{
+    width: 100%;
+    height: 600px;
+}
+
+.h1tittle{
+    color: white;
+    margin: 110px;
+    position: absolute;
+}
+
+.h1tittle .btn{
+    
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .contenedor{
+        width: 55.5%;
+    }
+    .parrafsubInicio{
+        display: none;
+    }
+ 
+    .tituloTyped{
+       display: none;
+    }
+    
+    .parrafInicio{
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        margin: 5px 0px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .contenedorTres{
+    display: none;
+    }
+    
+    header .butonInicioDos{
+        display: none;
+    }
+    .butonInicio{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: -135px 160px;
+    position: absolute;
+
+    }
+
+
+    .redes{
+        display: none;
+    }
+    .flechaIcono{
+        
+        margin: -60px 20px;
+    }
+    .flechaIcono img{
+        width: 35%;
+    }
+    video{
+        width: 180%;
+        
+    }
+   
+
+    .textEdit{
+        font-weight: bold;
+        color: #F24C4C;
+        font-style: normal;
+    }
+   
+    #myCarousel{
+        box-shadow: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    .imagenesSelec{
+        width: 100%;
+        height: 50vh;
+        margin: auto;
+    }
+
+    .h1paramovil{
+        display: none;
+    }
+
+    .pparamovil{
+        font-size: 18px
+    }
+  
+  .container .card{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+
+  }
+
+  .container img{
+    margin: auto;
+    width: 80%;
+
+  }
+
+  .butonInicio a{
+    width: 70%;
+    margin: -10px -50px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    }
+    
+    #myCarouselDos{
+        margin-top: 20px;
+        margin: 10px auto;
+        border-radius: 20px;
+        height: 300px;
+    }
+    .imagenBannerTienda{
+        height: 350px;
+    }
+    
+}
+
+

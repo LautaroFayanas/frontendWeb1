@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="/Styles/syles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="body">
+
+
+  <!--------  COMIENZO DE HEADER    ---------->
+  <header>
+
+    <!--------   NAVBAR    ---------->
+    <header class="p-3 bg-dark text-white">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/pages/tienda.html">Volver </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Formas de pago</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mi Carrito</a>
+              </li>
+
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <br><br><br>
+
+    <h1 class="h1 text-center text-dark">Estas en la seccion de pago</h1>
+    <p class="text-center h5"> Recorda completar el formulario correctamente </p>
+
+    <form class="row g-3 m-1 p-5" id="enviar-form">
+      <p class="h5 p-5 text-dark text-center"> Datos de Envio</p>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email@gmal.com">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Numero de telefono o celular</label>
+        <input type="number" class="form-control" id="inputTelefono" placeholder="+54113354553">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Direccion</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Georgia 3223">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Localidad</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Lanus Este.">
+      </div>
+      <div class="col-12">
+        <label for="inputCity" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="Buenos Aires">
+      </div>
+      <p class="h5 p-5 text-dark text-center"> Datos de Tarjeta</p>
+      <div class="col-md-4">
+        <label for="inputCity" class="form-label">Nombre Completo</label>
+        <input type="text" class="form-control" id="nombreTarjeta" placeholder="Fernandez Martin Lalo">
+      </div>
+      <div class="col-md-4">
+        <label for="inputCity" class="form-label">Numero de tarjeta</label>
+        <input type="number" class="form-control" id="numeroTarjeta" placeholder="Sin espacios">
+      </div>
+      <div class="col-md-2">
+        <label for="inputCity" class="form-label">Codigo</label>
+        <input type="password" class="form-control" id="codigoTarjeta" placeholder="026">
+      </div>
+      <div class="col-md-2">
+        <label for="inputCity" class="form-label">Fecha de expiracion</label>
+        <input type="text" class="form-control" id="fechaExpiracion" placeholder="02/25">
+      </div>
+
+      <div class="col-12">
+        <button type="submit" id="enviar" class="btn btn-primary">Enviar</button>
+      </div>
+      <div  id="spinner">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+    </form>
+
+    <script src="/js/formPago.js"></script>
+</body>
+
+</html>

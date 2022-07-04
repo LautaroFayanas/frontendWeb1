@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="/Styles/syles.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="body">
+
+
+  <!--------  COMIENZO DE HEADER    ---------->
+  <header>
+
+    <!--------   NAVBAR    ---------->
+    <header class="bg-dark text-white">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Volver </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/formPago.html">Formas de pago</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mi Carrito</a>
+              </li>
+
+
+            </ul>
+            <form class="d-flex " id="formBuscador" type="submit">
+              <input class="form-control me-5" id="search" type="search" placeholder="Busca por marca">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+
+
+    
+
+      <div id="myCarouselDos" class="carousel slide mt-5" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="imagenBannerTienda" src="/Images/charles-etoroma-k78R0lDxd48-unsplash.jpg" alt="">
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Bienvenido a nuestra tienda</h1>
+                <p>Recuerde que puede encontrar mas prendas tocando en el boton de cada producto</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Ver todos los productos</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imagenBannerTienda" src="/Images/jamakassi-wejxKZ-9IZg-unsplash.jpg" alt="">
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Secccion de disqueria</h1>
+                <p>Como somos distintos tambien te traemos una amplia seccion de musica para que te lleves</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Ver disqueria</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imagenBannerTienda" src="/Images/onur-bahcivancilar-wh9I0jokix8-unsplash.jpg" alt="">
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Verano de pilusos</h1>
+                <p>Los mejores pilusos 2022 los podes encontrar en nuestra tienda</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Ver tienda</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselDos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarouselDos" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+ 
+
+
+
+
+    <br><br>
+
+
+    <div id="alerta"></div>
+    <div id="resultado">
+
+
+    </div>
+
+    <main>
+
+
+
+      <div class="container">
+        <br><br>
+        <h2 class="pb-2 border-bottom text-dark ">Productos de la tienda</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 shadow-lg">
+
+          <div class="producto">
+            <div class="card mt-5 rounded-5">
+              <h5 class="tituloprod"> JORDAN </h5>
+              <img class="conta rounded-5" src="/Images/danilo-capece-NoVnXXmDNi0-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Nike Jordan 2022</h5>
+                <p class="card-text">Nueva Edicion de las  era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">1 hr</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="producto">
+
+            <div class=" card mt-5 rounded-5 producto">
+              <h5 class="tituloprod"> OUTFIT </h5>
+              <img class="conta rounded-5" src="/Images/grace-madeline-jZKD7-NzHtI-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Encontra tu OUTFIT </h5>
+                <p class="card-text">Nueva Edicion de las  era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">14 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="producto">
+
+            <div class=" card mt-5 rounded-5 producto">
+              <h5 class="tituloprod"> PATNS </h5>
+              <img class="conta rounded-5" src="/Images/mike-von-2UTk-Nip5aM-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Pantalones Nike</h5>
+                <p class="card-text">Nueva Edicion de las era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">14 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="producto">
+
+            <div class=" card mt-5 rounded-5 producto">
+              <h5 class="tituloprod"> BUZOS </h5>
+              <img class="conta rounded-5" src="/Images/autri-taheri-09M9H-P2B5w-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Buzos para todos</h5>
+                <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">14 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="producto">
+
+            <div class="card mt-5 rounded-5 producto">
+              <h5 class="tituloprod"> BLACK </h5>
+              <img class="conta rounded-5" src="/Images/autri-taheri-Vj2zHsZ1uqw-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Todo Black / Negro </h5>
+                <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">14 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="producto">
+
+            <div class="card mt-5 rounded-5 producto">
+              <h5 class="tituloprod"> WHITE </h5>
+              <img class="conta rounded-5" src="/Images/jordan-whitfield-cfutbZ4Kt2k-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Todo White / Blanco</h5>
+                <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">14 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="producto">
+
+            <div class="card mt-5 rounded-5 producto">
+              <h5 class="tituloprod"> GIRL </h5>
+              <img class="conta rounded-5" src="/Images/moncell-allen--I6Kd_HoWNw-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Ellas</h5>
+                <p class="card-text">Nueva Edicion de las era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">14 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="producto">
+
+            <div class="card mt-5 rounded-5 producto">
+              <h5 class="tituloprod"> BOY </h5>
+              <img class="conta rounded-5" src="/Images/dolapo-ayoade-NhWW_RW1qO0-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Ellos</h5>
+                <p class="card-text">Nueva Edicion de las  era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">14 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="producto">
+
+            <div class="card mt-5 rounded-5 producto">
+              <h5 class="tituloprod"> UNISEX </h5>
+              <img class="conta rounded-5" src="/Images/mike-von-2UTk-Nip5aM-unsplash.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Ropa UNISEX </h5>
+                <p class="card-text">Nueva Edicion de las  era 2021 , el nuevo modelo lo podes ver entrando aqui.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                        href="/pages/tienda.html">Tienda</a> </button>
+                    <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                  </div>
+                  <small class="text-muted">14 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </main>
+
+    <br>
+    
+    <br>
+    
+    <br>
+
+    <h2 class="pb-2 border-bottom text-center" id="contacto">Contactanos</h2>
+
+    <form class=" p-5 m-5 bg-dark rounded-5" id="enviar-form">
+      <label for="exampleFormControlInput1" class="form-label text-white">Email </label>
+      <input type="email" class="form-control mb-5" id="exampleFormControlInput1" placeholder="name@example.com">
+
+      <label for="exampleFormControlTextarea1" class="form-label text-white">Nota</label>
+      <textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <button id="enviar" class="btn btn-primary rounded-5 p-2 m-2">Enviar</button>
+      <div  id="spinner">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+    </form>
+
+    <!-------- FIN SECCION CONTACTOS    ---------->
+
+
+
+    <!--------  SECCION FOOTER    ---------->
+    <footer class="d-flex bg-dark flex-wrap justify-content-center align-items-center py-2 my-4 border-top">
+
+      <p class="col-md-4 mb-0  text-white">&copy; 2022 Company, Inc</p>
+
+      <ul class="nav col-md-4 justify-content-end ">
+        <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-white ">Inicio</a></li>
+        <li class="nav-item"><a href="/pages/tienda.html" class="nav-link px-2 text-white ">Tienda</a></li>
+
+      </ul>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+    <script src="/js/filtroBusqueda.js"></script>
+    <script src="/js/validarForm.js"></script>
+</body>
+
+
+</html>

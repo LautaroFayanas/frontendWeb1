@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="/Styles/syles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+
+
+<body class="body">
+
+
+  <!--------  COMIENZO DE HEADER    ---------->
+  <header>
+
+    <!--------   NAVBAR    ---------->
+    <header class="p-3 bg-dark text-white">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#inicio">native.net</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#eventos">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#noticias">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+
+            </ul>
+            <div class="divbtndakrmode">
+              <a class="btn-DarMode" href="#"><img class="darkimg" src="/Images/dia-y-noche (1).png" alt=""></a>
+            </div>
+            <form class="d-flex" role="login">
+
+              <button class="btn btn-light rounded-5" type="submit">Login</button>
+              <button class="btn btn-danger rounded-5" type="submit">Nuevo</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="inicio"></div>
+
+    <div class="contenedor">
+      <div class="conentedorDos">
+        <!--------   TEXTO BANNER    ---------->
+        
+        <p class="tituloTyped text-white">Skateboarding is -<br> <span class="typed"></span> </p>
+        <p class="parrafInicio display-4 fw-bold lh-1  text-warning ">happy skateboarding day </p>
+        <p class="parrafsubInicio h4 text-white">Pagina web de prototipo para practica de diseño web <br> practicas de
+          diseño web bootstrap. </p>
+      </div>
+      <!--------   VIDEO BANNER   ---------->
+      <video src="/Images/Rain - 28236.mp4" autoplay loop class="video-fluid"></video>
+      <div class="contenedorTres">
+
+        <!--------   CARROUSEL BANNER ---------->
+        <div id="carouselExampleDark" class="carousel carousel-white  slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button " data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button " data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="10000">
+              <!------ IMG CARROUSEL BANNER------->
+              <img src="/Images/breakreate-A_IfOgYEQU4-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-white">
+                <h5> <strong>Street Dance</strong> </h5>
+                <p>Enterate cuando la escena urbana sale a las calles.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="Images/junior-samson-kWpBUh2bdwE-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-white">
+                <h5><strong>Nuevas Jordan</strong></h5>
+                <p>Encontra las Jordan que buscas aca.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/Images/joris-goossens-bfuMiO-oxBI-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-white">
+                <h5><strong>Mar del Plata</strong></h5>
+                <p>Inaguro ayer el comienzo del torneo local.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-------- CARRUSEL BOTONES BANNER    ---------->
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!--------   ICONOS BANNER    ---------->
+      <div class="redes">
+        <img src="/Images/spotify (1).png" alt=""><img src="/Images/instagram (1).png" alt=""><img src="/Images/facebook (1).png"
+          alt=""><img src="/Images/gorjeo (1).png" alt="">
+      </div>
+      <div class="flechaIcono">
+        <img src="/Images/flecha-hacia-abajo.png" alt="">
+      </div>
+    </div>
+    <!--------   BOTON VER TIENDA BANNER    ---------->
+    <button class="butonInicioDos btn btn-success rounded-3"><a href="#">Login Up</a> </button>
+    <button class="butonInicio btn btn-dark rounded-3"><a href="/pages/tienda.html">Ver Tienda</a> </button>
+  </header>
+
+  <br><br><br>
+
+
+
+  <!--------   COMIENZO DE MAIN    ---------->
+
+  <main>
+
+    <!--------   PRODUCTOS DE VENTAS    ---------->
+
+    <div class="container ">
+      <h2 class="pb-2 border-bottom text-dark ">Productos de la tienda</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 shadow-lg">
+
+
+        <div class="separador">
+
+          <div class="card mt-5  rounded-5">
+            <h5 class="tituloprod"> CAPS </h5>
+            <img class="conta rounded-5" src="/Images/dolapo-ayoade-NhWW_RW1qO0-unsplash.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Nuestras gorras</h5>
+              <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-dark rounded-5 "> <a class="nav-link"
+                      href="/pages/tienda.html">Tienda</a> </button>
+                  <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                </div>
+                <small class="text-muted">3 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="separador">
+
+          <div class="card mt-5 rounded-5">
+            <h5 class="tituloprod"> BUZOS </h5>
+            <img class="conta rounded-5" src="/Images/autri-taheri-09M9H-P2B5w-unsplash.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Lo nuevo de Champions</h5>
+              <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                      href="/pages/tienda.html">Tienda</a> </button>
+                  <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                </div>
+                <small class="text-muted">14 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="separador">
+
+          <div class="card mt-5 rounded-5">
+            <h5 class="tituloprod"> JORDAN </h5>
+            <img class="conta rounded-5" src="/Images/danilo-capece-NoVnXXmDNi0-unsplash.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Nuevas Jordan</h5>
+              <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                      href="/pages/tienda.html">Tienda</a> </button>
+                  <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                </div>
+                <small class="text-muted">1 hr</small>
+              </div>
+            </div>
+          </div>
+  
+        </div>  
+
+        <div class="separador">
+
+          <div class="card mt-5 rounded-5">
+            <h5 class="tituloprod"> GIRL </h5>
+            <img class="conta rounded-5" src="/Images/moncell-allen--I6Kd_HoWNw-unsplash.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Ropa para ellas</h5>
+              <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                      href="/pages/tienda.html">Tienda</a> </button>
+                  <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                </div>
+                <small class="text-muted">14 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="separador">
+
+        <div class="card mt-5 rounded-5">
+          <h5 class="tituloprod"> BOY </h5>
+          <img class="conta rounded-5" src="/Images/grace-madeline-jZKD7-NzHtI-unsplash.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Ropa para ellos</h5>
+            <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                    href="/pages/tienda.html">Tienda</a> </button>
+                <button type="button" class="btn btn-success rounded-5">Carrito</button>
+              </div>
+              <small class="text-muted">14 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="separador">
+
+          <div class="card mt-5 rounded-5">
+            <h5 class="tituloprod"> UNISEX </h5>
+            <img class="conta rounded-5" src="/Images/mike-von-2UTk-Nip5aM-unsplash.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Nuevos Ingresos</h5>
+              <p class="card-text">Nueva Edicion de las Vans era 2021 , el nuevo modelo lo podes ver entrando aqui.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-dark rounded-5"> <a class="nav-link"
+                      href="/pages/tienda.html">Tienda</a> </button>
+                  <button type="button" class="btn btn-success rounded-5">Carrito</button>
+                </div>
+                <small class="text-muted">14 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <!--------  FIN PRODUCTOS DE VENTAS    ---------->
+    <br><br id="eventos">
+
+    <!--------   CARROUSEL DE EVENTOS    ---------->
+
+    <br><br>
+    <div class="container-sm">
+      <h2 class="pb-2 border-bottom">Enterate los proximos eventos</h2>
+      <div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner rounded-5">
+          <div class="carousel-item  active rounded-5">
+            <img class="imagenesSelec rounded-5 " src="/Images/jan-kopriva-466fC1S5p1s-unsplash.jpg" alt="">
+            <div class="container ">
+              <div class="carousel-caption text-start m-5 text-dark">
+                <h1 class="h1paramovil"> <strong>Mendoza</strong> </h1>
+                <p class="pparamovil">Comienza el <strong  class="text-danger">nuevo torneo</strong>  donde participaran grandes artistas de la escenea. <strong class="text-white">  Hace click</strong> y enterate mas</p>
+                <p><a class="btn btn-lg btn-success rounded-5" href="#">Ir al evento</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="imagenesSelec" src="/Images/travis-yewell-JqHi0yi7XPo-unsplash.jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption m-5 text-dark">
+                <h1 class="h1paramovil"> <strong> Mar Del Plata </strong></h1>
+                <p class="pparamovil">El festival que viene completo con la presencia de <strong class="text-danger" >RedBullArg</strong> esta cada vez mas cerca </p>
+                <p><a class="btn btn-lg btn-success rounded-5" href="#">Ir al evento</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <img class="imagenesSelec " src="/Images/visit-almaty-wN4D-mVR7fE-unsplash.jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption text-end m-5 text-dark">
+                <h1 class="h1paramovil">Agosto en <strong class="text-white"> Bariloche ! </strong> </h1>
+                <p class="pparamovil">Arranca el invierno y bariloche ya piensa en los  <strong class="text-white"> torneos ! </strong> </h1> </p>
+                <p><a class="btn btn-lg btn-success rounded-5 btnmovil" href="#">Ir al evento</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--------   FIN CARROUSEL EVENTOS    ---------->
+      <br id="noticias">
+      <!--------   CARDS MEDIO AMBIENTE     ---------->
+
+      <div class="container px-4 py-5 shadow-lg" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Enterate lo que pasa en nuestro Notiblog</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 ">
+          <div class="col">
+            <div class="card border-bottom h-100 text-white rounded-5 shadow-lg"
+              style="cursor: pointer; background-repeat: no-repeat; background-image: url(/Images/dave-herring-TrUbzz4KamI-unsplash.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Defo- <br> res <br> tacion ambiental</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="/Images/asher-legg-MiintsWweZI-unsplash.jpg" width="32" height="32"
+                      class="rounded-circle border border-white ">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-bottom h-100 text-white  rounded-5 shadow-lg"
+              style="cursor: pointer; background-repeat: no-repeat; background-image: url(/Images/brian-yurasits-V39_hC1S9sM-unsplash.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">¿Que pasa <br> con el plastico en la playa? </h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="/Images/markus-spiske-r1BS0pzlr1M-unsplash.jpg" alt="Bootstrap" width="32" height="32"
+                      class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Pakistan</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-bottom h-100 overflow-hidden text-white  rounded-5 shadow-lg"
+              style="cursor: pointer;  background-image: url('/Images/mika-baumeister-u29d3Qwbz58-unsplash.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><br> Cuidemoslo</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="/Images/dave-herring-TrUbzz4KamI-unsplash.jpg" alt="Bootstrap" width="32" height="32"
+                      class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>California</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------  FIN CARDS MEDIO AMBIENTE     ---------->
+
+      <br id="nosotros"><br><br>
+
+      <!--------   SECCION NOSOTROS    ---------->
+      <h2 class="pb-2 border-bottom">¿Quienes somos?</h2>
+      <div class="containerDos">
+
+        <div class="row ">
+
+          <div class="col-lg-4 shadow-lg ">
+            <img class="imagenNosotros " src="/Images/hassan-khan-EGVccebWodM-unsplash.jpg" alt="">
+
+            <h2 class="text-dark ">Erika</h2>
+            <p class="text-dark "> Some representative placeholder content for the three columns of text below the
+              carousel.
+              This is the
+              first column.</p>
+
+            <p><a class="btn btn-success rounded-5" href="#">Ver Perfil &raquo;</a></p>
+          </div>
+
+          <div class=" col-lg-4 shadow-lg">
+            <img class="imagenNosotros" src="/Images/ethan-haddox-NTjSR3zYpsY-unsplash.jpg" alt="">
+            <h2 class="text-dark ">Martina</h2>
+            <p class="text-dark">Another exciting bit of representative placeholder content. This time, we've moved on
+              to
+              the second
+              column.</p>
+            <p><a class="btn btn-success rounded-5" href="#">Ver Perfil &raquo;</a></p>
+          </div>
+
+          <div class=" col-lg-4 shadow-lg">
+            <img class="imagenNosotros" src="/Images/kenny-timmer--j1ljVSEGpY-unsplash.jpg" alt="">
+
+
+            <h2 class="text-dark">Javier</h2>
+            <p class="text-dark ">And lastly this, the third column of representative placeholder content representative
+              placeholder
+              content.</p>
+
+            <p><a class="btn btn-success rounded-5" href="#">Ver Perfil &raquo;</a></p>
+
+          </div>
+        </div>
+      </div>
+
+      <!--------  FIN SECCION NOSOTROS    ---------->
+
+
+      <!--------  SECCION CONTACTOS    ---------->
+      <h2 class="pb-2 border-bottom" id="contacto">Contactanos</h2>
+
+      <form class=" p-5 m-5 bg-dark rounded-5" id="enviar-form">
+        <label for="exampleFormControlInput1" class="form-label text-white">Email </label>
+        <input type="email" class="form-control mb-5" id="exampleFormControlInput1" placeholder="name@example.com">
+
+        <label for="exampleFormControlTextarea1" class="form-label text-white">Nota</label>
+        <textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button id="enviar" class="btn btn-primary rounded-5 p-2 m-2">Enviar</button>
+        <div  id="spinner">
+          <div class="sk-chase">
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+          </div>
+      </div>
+      </form>
+
+     
+      <!-------- FIN SECCION CONTACTOS    ---------->
+
+  </main>
+
+
+  <!--------  SECCION FOOTER    ---------->
+  <footer class="d-flex bg-dark flex-wrap justify-content-center align-items-center py-2 my-4 border-top">
+
+    <p class="col-md-4 mb-0  text-white">&copy; 2022 Company, Inc</p>
+
+    <ul class="nav col-md-4 justify-content-end ">
+      <li class="nav-item"><a href="#inicio" class="nav-link px-2 text-white ">Inicio</a></li>
+      <li class="nav-item"><a href="/pages/tienda.html" class="nav-link px-2 text-white ">Tienda</a></li>
+      <li class="nav-item"><a href="#eventos" class="nav-link px-2 text-white">Eventos</a></li>
+      <li class="nav-item"><a href="#nosotros" class="nav-link px-2 text-white">Nosotros</a></li>
+      <li class="nav-item"><a href="#contactos" class="nav-link px-2 text-white">Contactos</a></li>
+    </ul>
+
+  </footer>
+
+  
+
+  <!--------  FIN SECCION FOOTER    ---------->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/validarForm.js"></script>
+</body>
+
+</html>
